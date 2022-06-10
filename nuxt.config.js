@@ -183,7 +183,15 @@ export default {
   env: {
     app,
     firebase: {
-      config: JSON.parse(process.env.FIREBASE_CONFIG || {}),
+      config:
+        {
+          apiKey: 'AIzaSyCKXgD-26GHWuauWded-Mfen2P1YaGmzAM',
+          authDomain: 'wedance-test.firebaseapp.com',
+          projectId: 'wedance-test',
+          storageBucket: 'wedance-test.appspot.com',
+          messagingSenderId: '118099198562',
+          appId: '1:118099198562:web:1a8ce65e8d5371deb3c73b',
+        } || {},
       analytics: process.env.FIREBASE_ANALYTICS,
       analyticsDebug: process.env.FIREBASE_ANALYTICS_DEBUG,
     },

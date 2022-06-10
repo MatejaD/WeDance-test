@@ -155,3 +155,4 @@ This site is a [Nuxt.js](https://nuxtjs.org) application. See [Directory Structu
 ## The bottom line
 
 We are all humans trying to work together to improve the community. Always be kind and appreciate the need for tradeoffs. ❤️
+# WeDance-test

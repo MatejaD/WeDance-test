@@ -39,6 +39,7 @@
     "core-js": "2",
     "d3": "^6.2.0",
     "date-fns": "^2.10.0",
+    "dotenv": "^16.0.1",
     "excerpt-html": "^1.2.1",
     "file-saver": "^2.0.2",
     "firebase": "^8.2.9",

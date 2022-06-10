@@ -9,6 +9,8 @@ export const app = {
   cover: '/cover/wide.png',
 }
 
+require('dotenv').config()
+
 const locales = [
   { code: 'en', name: 'English', file: 'en.yml' },
   { code: 'es', name: 'Español', file: 'es.yml' },
